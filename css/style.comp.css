@@ -963,6 +963,9 @@ Good order: Base + typography > general layout + grid > page layout > components
   background-position: top;
   margin-top: -10rem;
   transform: skewY(-7deg); }
+  @media only screen and (min-resolution: 192dpi) and (min-width: 600px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px), only screen and (min-width: 2000px) {
+    .section-features {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4-small.jpg"); } }
   .section-features > * {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
@@ -996,13 +999,16 @@ Good order: Base + typography > general layout + grid > page layout > components
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  @media only screen and (min-resolution: 192dpi) and (min-width: 600px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px), only screen and (min-width: 2000px) {
+    .book {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-10-small.jpg"); } }
   @media only screen and (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url("../img/nat-10.jpg");
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url("../img/nat-10-small.jpg");
       background-size: cover; } }
   @media only screen and (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("../img/nat-10.jpg"); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("../img/nat-10-small.jpg"); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
